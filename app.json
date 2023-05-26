@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "tinder",
     "name": "tinder",
     "slug": "tinder",
     "version": "1.0.0",
@@ -11,20 +12,25 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "host.exp.exponent"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "host.exp.exponent"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "49e92d91-bd3d-4b54-8270-23ef001ea7f1"
+      }
     }
   }
 }

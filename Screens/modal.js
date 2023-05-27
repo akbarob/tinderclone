@@ -179,7 +179,7 @@ export default function Modal() {
           onPress={() => pickImageAsync()}
           className="bg-rose-400 px-6 py-2"
         >
-          <Text className="text-black">Upload Photo</Text>
+          <Text className="text-black text-center">Upload Photo</Text>
         </TouchableOpacity>
       </View>
       {Platform.OS === "ios" && (
